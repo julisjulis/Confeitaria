@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+@font-face{
+font-family: "bakery";
+src: url("<?php echo base_url();?>static/font/bakery.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.produtos {
+    width: 100%;
+    background: url("../img/bg-produtos.jpg");
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+.produtos h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.produtos .lista-produtos {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.produtos .produto-item {
+    background-color: #c2185b;
+    max-width: 300px;
+    margin: 30px;
+}
+
+.produtos h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.produtos ul li {
+    font-weight: bold;
+    font-size: 46px;
+    margin: 0 40px;
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+}
+
+

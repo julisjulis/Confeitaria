@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../img/plano de fundo.png");
+    background-repeat: no-repeat;
+}
+
+img{
+    
+    margin-top: 15%;
+    display: block;
+    margin-left: 5%;
+    max-width: 300px;
+    width: auto;
+}
+
